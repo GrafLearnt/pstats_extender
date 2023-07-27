@@ -2,6 +2,7 @@
 name = "pstats_extender"
 version = "0.1.0"
 description = ""
+license = "GNU"
 authors = ["Kostiantyn Shmyhelskyi <graflearnt@gmail.com>"]
 readme = "README.md"
 packages = [{include = "pstats_extender"}]
