@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "pstats_extender"
+version = "0.1.0"
+description = ""
+authors = ["Kostiantyn Shmyhelskyi <graflearnt@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pstats_extender"}]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.black]
+line-length = 100
+target-version = ['py36']
+include = '\.pyi?$'
+extend-exclude = '''
+# A regex preceded with ^/ will apply only to files and directories
+# in the root of the project.
+^/foo.py  # exclude a file named foo.py in the root of the project (in addition to the defaults)
+'''
+
+[tool.pyright]
+pythonVersion = '3.6'
+venvPath = ''
+venv = ''
