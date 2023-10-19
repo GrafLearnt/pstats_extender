@@ -6,7 +6,7 @@ Designed to save pstats log to folder...
 ```
 # Usage
 ```python
-import pstats_extenter
+import pstats_extender
 
 
 with pstats_extenter.profile(
