@@ -22,6 +22,15 @@ import pstats_extender
 with pstats_extender.profile():
     # your code here
 ```
+## or
+```python
+import pstats_extender
+
+
+@pstats_extender.profile():
+def some_function():
+    ...
+```
 
 ## License
 
