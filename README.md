@@ -27,7 +27,7 @@ with pstats_extender.profile():
 import pstats_extender
 
 
-@pstats_extender.profile():
+@pstats_extender.profile()
 def some_function():
     ...
 ```
