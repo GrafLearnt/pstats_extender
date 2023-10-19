@@ -9,17 +9,17 @@ Designed to save pstats log to folder...
 import pstats_extender
 
 
-with pstats_extenter.profile(
+with pstats_extender.profile(
     sortby=pstats_extenter.SortKey.CUMULATIVE, directory="../pstats"
 ):
     # your code here
 ```
 ## or
 ```python
-import pstats_extenter
+import pstats_extender
 
 
-with pstats_extenter.profile():
+with pstats_extender.profile():
     # your code here
 ```
 
