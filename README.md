@@ -9,6 +9,15 @@ Designed to save pstats log to folder...
 import pstats_extender
 
 
+@pstats_extender.profile()
+def some_function():
+    ...
+```
+## or
+```python
+import pstats_extender
+
+
 with pstats_extender.profile(
     sortby=pstats_extenter.SortKey.CUMULATIVE, directory="../pstats"
 ):
@@ -22,15 +31,7 @@ import pstats_extender
 with pstats_extender.profile():
     # your code here
 ```
-## or
-```python
-import pstats_extender
 
-
-@pstats_extender.profile()
-def some_function():
-    ...
-```
 
 ## License
 
