@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pstats_extender"
-version = "0.1.0"
+version = "0.1.1"
 description = "Designed to save pstats log to folder."
 license = "GNU"
 authors = ["Kostiantyn Shmyhelskyi <graflearnt@gmail.com>"]
