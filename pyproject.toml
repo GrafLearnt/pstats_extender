@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pstats_extender"
-version = "0.1.1"
+version = "0.1.2"
 description = "Designed to save pstats log to folder."
 license = "GNU"
 authors = ["Kostiantyn Shmyhelskyi <graflearnt@gmail.com>"]
@@ -14,8 +14,11 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.10"
 
+
+[tool.poetry.group.dev.dependencies]
+sphinx = "^8.0.2"
 
 [build-system]
 requires = ["poetry-core"]
