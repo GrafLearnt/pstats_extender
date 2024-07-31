@@ -10,7 +10,9 @@ homepage = "https://github.com/GrafLearnt/pstats_extender"
 documentation = "https://github.com/GrafLearnt/pstats_extender/blob/main/README.md"
 keywords = ["pstats", "profiler"]
 classifiers = [
-    "Topic :: Software Development :: Dev Tools",
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Debuggers",
 ]
 
 [tool.poetry.dependencies]
