@@ -1,4 +1,4 @@
-[![Upload Python Package](https://github.com/GrafLearnt/pstats_extender/actions/workflows/python-publish.yml/badge.svg)](https://github.com/GrafLearnt/pstats_extender/actions/workflows/python-publish.yml)
+[![Upload Python Package](https://github.com/GrafLearnt/pstats_extender/actions/workflows/python-publish.yml/badge.svg)](https://github.com/GrafLearnt/pstats_extender/actions/workflows/python-publish.yml) [![pstats-extender](https://snyk.io/advisor/python/pstats-extender/badge.svg)](/advisor/python/pstats-extender)
 # Abstract
 Designed to save pstats log to folder...
 # Install
