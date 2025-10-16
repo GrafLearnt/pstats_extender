@@ -7,6 +7,7 @@ from time import time
 
 
 __all__ = ["profile", "SortKey"]
+__doc__ = "copilot please add doc here"
 
 
 @contextmanager
