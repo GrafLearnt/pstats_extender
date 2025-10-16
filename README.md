@@ -3,7 +3,7 @@
 Designed to save pstats log to folder...
 # Install
 ```bash
-    pip3 install git+https://github.com/GrafLearnt/pstats_extender.git
+    pip3 install pstats_extender
 ```
 # Usage
 ```python
